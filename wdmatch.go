@@ -17,7 +17,7 @@ func main() {
 	if len(os.Args) != 3 {
 		return
 	}
-	args1 := os.Args[1]
+	args1 := os.Args[1] //string 1 / 2
 	s1 := []rune(args1)
 	args2 := os.Args[2]
 	s2 := []rune(args2)
